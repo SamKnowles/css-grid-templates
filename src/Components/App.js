@@ -8,6 +8,7 @@ import GridGapPlus from './GridGapPlus';
 import GridLines from './GridLines';
 import GridLinesPlus from './GridLinesPlus';
 import Nav from './Nav';
+import '../Styles/Nav.css';
 import '../Styles/GridLines.css';
 import '../Styles/GridLinesPlus.css';
 import '../Styles/GridElements.css';
@@ -20,6 +21,7 @@ import '../Styles/GridGapPlus.css';
 function App() {
     return (
         <div>
+            <Nav />
             <GridLayout />
             <GridElements />
             <GridColumns />    
