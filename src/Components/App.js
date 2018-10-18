@@ -1,5 +1,6 @@
 import React from 'react';
-import GridElements from'./GridElements';
+import {Switch, Route} from 'react-router-dom';
+import GridElements from './GridElements';
 import GridColumns from './GridColumns';
 import GridLayout from './GridLayout';
 import GridRows from './GridRows';
@@ -20,17 +21,19 @@ import '../Styles/GridGapPlus.css';
 
 function App() {
     return (
-        <div>
+        <div className='app-wrapper'>
             <Nav />
-            <GridLayout />
-            <GridElements />
-            <GridColumns />    
-            <GridRows />
-            <GridGaps />
-            <GridGapPlus />
-            <GridLines />
-            <GridLinesPlus />
-        </div> 
+            <Switch>
+                <Route exact path='/' component={GridLayout}></Route>
+                <Route path='/gridelements' component={GridElements}></Route>
+                <Route path='/gridcolumns' component={GridColumns}></Route>
+                <Route path='/gridrows' component={GridRows}></Route>
+                <Route path='/gridgaps' component={GridGaps}></Route>
+                <Route path='/gridgapplus' component={GridGapPlus}></Route>
+                <Route path='/gridlines' component={GridLines}></Route>
+                <Route path='/gridlinesplus' component={GridLinesPlus}></Route>
+            </Switch>
+        </div>
     )
 }
 
