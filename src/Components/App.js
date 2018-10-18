@@ -7,6 +7,7 @@ import GridGaps from './GridGaps';
 import GridGapPlus from './GridGapPlus';
 import GridLines from './GridLines';
 import GridLinesPlus from './GridLinesPlus';
+import Nav from './Nav';
 import '../Styles/GridLines.css';
 import '../Styles/GridLinesPlus.css';
 import '../Styles/GridElements.css';

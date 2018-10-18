@@ -5,6 +5,8 @@ import { BroswerRouter as Router } from 'react-router-dom';
 import App from './Components/App';
 
 ReactDOM.render(
-    <App />,
+    <Router>
+        <App />
+    </Router>,
     document.getElementById('root')
 );
