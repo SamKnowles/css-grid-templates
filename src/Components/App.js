@@ -9,6 +9,7 @@ import GridGapPlus from './GridGapPlus';
 import GridLines from './GridLines';
 import GridLinesPlus from './GridLinesPlus';
 import GridContainer from './GridContainer';
+import GridTemplateColumns from './GridTemplateColumns';
 import Nav from './Nav';
 import '../Styles/Nav.css';
 import '../Styles/GridLines.css';
@@ -20,6 +21,7 @@ import '../Styles/GridRows.css';
 import '../Styles/GridGaps.css';
 import '../Styles/GridGapPlus.css';
 import '../Styles/GridContainer.css';
+import '../Styles/GridTemplateColumns.css';
 
 function App() {
     return (
@@ -35,6 +37,7 @@ function App() {
                 <Route path='/gridlines' component={GridLines}></Route>
                 <Route path='/gridlinesplus' component={GridLinesPlus}></Route>
                 <Route path='/gridcontainer' component={GridContainer}></Route>
+                <Route path='/GridTemplateColumns' component={GridTemplateColumns}></Route>
             </Switch>
         </div>
     )
