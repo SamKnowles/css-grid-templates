@@ -12,6 +12,7 @@ import GridContainer from './GridContainer';
 import GridTemplateColumns from './GridTemplateColumns';
 import GridTemplateColumnsPlus from './GridTemplateColumnsPlus';
 import GridTemplateRows from './GridTemplateRows';
+import JustifyContentSpaceEvenly from './JustifyContentSpaceEvenly';
 import Nav from './Nav';
 
 import '../Styles/Nav.css';
@@ -27,6 +28,8 @@ import '../Styles/GridContainer.css';
 import '../Styles/GridTemplateColumns.css';
 import '../Styles/GridTemplateColumnsPlus.css';
 import '../Styles/GridTemplateRows.css';
+import '../Styles/GridTemplateRows.css';
+import '../Styles/JustifyContentSpaceEvenly.css';
 
 function App() {
     return (
@@ -45,6 +48,7 @@ function App() {
                 <Route path='/gridtemplatecolumns' component={GridTemplateColumns}></Route>
                 <Route path='/gridtemplatecolumnsplus' component={GridTemplateColumnsPlus}></Route>
                 <Route path='/gridtemplaterows' component={GridTemplateRows}></Route>
+                <Route path='/justifycontentspaceevenly' component={JustifyContentSpaceEvenly}></Route>
             </Switch>
         </div>
     )
