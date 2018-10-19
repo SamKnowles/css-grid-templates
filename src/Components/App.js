@@ -15,6 +15,7 @@ import GridTemplateRows from './GridTemplateRows';
 import JustifyContentSpaceEvenly from './JustifyContentSpaceEvenly';
 import JustifyContentSpaceAround from './JustifyContentSpaceAround';
 import JustifyContentSpaceBetween from './JustifyContentSpaceBetween';
+import JustifyContentCenter from './JustifyContentCenter';
 import Nav from './Nav';
 
 import '../Styles/Nav.css';
@@ -34,6 +35,7 @@ import '../Styles/GridTemplateRows.css';
 import '../Styles/JustifyContentSpaceEvenly.css';
 import '../Styles/JustifyContentSpaceAround.css';
 import '../Styles/JustifyContentSpaceBetween.css';
+import '../Styles/JustifyContentCenter.css';
 
 function App() {
     return (
@@ -55,7 +57,7 @@ function App() {
                 <Route path='/justifycontentspaceevenly' component={JustifyContentSpaceEvenly}></Route>
                 <Route path='/justifycontentspacearound' component={JustifyContentSpaceAround}></Route>
                 <Route path='/justifycontentspacebetween' component={JustifyContentSpaceBetween}></Route>
-
+                <Route path='/justifycontentcenter' component={JustifyContentCenter}></Route>
             </Switch>
         </div>
     )
