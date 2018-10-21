@@ -21,6 +21,8 @@ import JustifyContentEnd from './JustifyContentEnd';
 import AlignContentCenter from './AlignContentCenter';
 import AlignContentSpaceEvenly from './AlignContentSpaceEvenly';
 import AlignContentSpaceAround from './AlignContentSpaceAround';
+import AlignContentSpaceBetween from './AlignContentSpaceBetween';
+import AlignContentStart from './AlignContentStart';
 import Nav from './Nav';
 
 import '../Styles/Nav.css';
@@ -45,7 +47,9 @@ import '../Styles/JustifyContentStart.css';
 import '../Styles/JustifyContentEnd.css';
 import '../Styles/AlignContentCenter.css';
 import '../Styles/AlignContentSpaceEvenly.css';
-import '../Styles/AlignContentSpaceAround.css'
+import '../Styles/AlignContentSpaceAround.css';
+import '../Styles/AlignContentSpaceBetween.css';
+import '../Styles/AlignContentStart.css';
 
 function App() {
     return (
@@ -73,7 +77,9 @@ function App() {
                 <Route path='/aligncontentcenter' component={AlignContentCenter}></Route>
                 <Route path='/aligncontentspaceevenly' component={AlignContentSpaceEvenly}></Route>
                 <Route path='/aligncontentspacearound' component={AlignContentSpaceAround}></Route>
-            
+                <Route path='/aligncontentspacebetween' component={AlignContentSpaceBetween}></Route>
+                <Route path='/aligncontentstart' component={AlignContentStart}></Route>
+
             </Switch>
         </div>
     )
