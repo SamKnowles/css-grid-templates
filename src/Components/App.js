@@ -18,6 +18,8 @@ import JustifyContentSpaceBetween from './JustifyContentSpaceBetween';
 import JustifyContentCenter from './JustifyContentCenter';
 import JustifyContentStart from './JustifyContentStart';
 import JustifyContentEnd from './JustifyContentEnd';
+import AlignContentCenter from './AlignContentCenter';
+import AlignContentSpaceEvenly from './AlignContentSpaceEvenly';
 import Nav from './Nav';
 
 import '../Styles/Nav.css';
@@ -40,6 +42,8 @@ import '../Styles/JustifyContentSpaceBetween.css';
 import '../Styles/JustifyContentCenter.css';
 import '../Styles/JustifyContentStart.css';
 import '../Styles/JustifyContentEnd.css';
+import '../Styles/AlignContentCenter.css';
+import '../Styles/AlignContentSpaceEvenly.css';
 
 function App() {
     return (
@@ -64,6 +68,9 @@ function App() {
                 <Route path='/justifycontentcenter' component={JustifyContentCenter}></Route>
                 <Route path='/justifycontentstart' component={JustifyContentStart}></Route>
                 <Route path='/justifycontentend' component={JustifyContentEnd}></Route>
+                <Route path='/aligncontentcenter' component={AlignContentCenter}></Route>
+                <Route path='/aligncontentspaceevenly' component={AlignContentSpaceEvenly}></Route>
+                
             </Switch>
         </div>
     )
