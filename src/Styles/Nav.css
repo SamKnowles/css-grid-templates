@@ -17,3 +17,10 @@
     text-decoration: none;
     font-size: 11px;
 }
+
+.nav-item-justify {
+    color: Purple;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: pink;
+}

@@ -16,11 +16,11 @@ function Nav() {
             <div className='nav-link'><Link className='nav-item' to='/gridtemplatecolumns'>Grid Template Columns</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/gridtemplatecolumnsplus'>Grid Template Columns Plus</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/gridtemplaterows'>Grid Template Rows</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/justifycontentspaceevenly'>Justify Content Space Evenly</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/justifycontentspacearound'>Justify Content Space Around</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/justifycontentspacebetween'>Justify Content Space Between</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/justifycontentcenter'>Justify Content Center</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/justifycontentstart'>Justify Content Start</Link></div>
+            <div className='nav-link'><Link className='nav-item-justify' to='/justifycontentspaceevenly'>Justify Content Space Evenly</Link></div>
+            <div className='nav-link'><Link className='nav-item-justify' to='/justifycontentspacearound'>Justify Content Space Around</Link></div>
+            <div className='nav-link'><Link className='nav-item-justify' to='/justifycontentspacebetween'>Justify Content Space Between</Link></div>
+            <div className='nav-link'><Link className='nav-item-justify' to='/justifycontentcenter'>Justify Content Center</Link></div>
+            <div className='nav-link'><Link className='nav-item-justify' to='/justifycontentstart'>Justify Content Start</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/aligncontentcenter'>Align Content Center</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/aligncontentspaceevenly'>Align Content Space Evenly</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/aligncontentspacearound'>Align Content Space Around</Link></div>
