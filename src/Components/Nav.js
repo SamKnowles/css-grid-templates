@@ -26,7 +26,7 @@ function Nav() {
             <div className='nav-link'><Link className='nav-item' to='/aligncontentspacearound'>Align Content Space Around</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/aligncontentspacebetween'>Align Content Space Between</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/aligncontentstart'>Align Content Start</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
+            <div className='nav-link'><Link className='nav-item' to='/aligncontentend'>Align Content End</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
