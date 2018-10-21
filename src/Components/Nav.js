@@ -23,6 +23,7 @@ function Nav() {
             <div className='nav-link'><Link className='nav-item' to='/justifycontentstart'>Justify Content Start</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/aligncontentcenter'>Align Content Center</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/aligncontentspaceevenly'>Align Content Space Evenly</Link></div>
+            <div className='nav-link'><Link className='nav-item' to='/aligncontentspacearound'>Align Content Space Around</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
@@ -35,8 +36,6 @@ function Nav() {
             <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
-
 
         </div>
     )
