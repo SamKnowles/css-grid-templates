@@ -28,14 +28,14 @@ function Nav() {
             <div className='nav-link'><Link className='nav-item' to='/aligncontentstart'>Align Content Start</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/aligncontentend'>Align Content End</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/griditem'>Grid Item</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/justifycontentend'>Justify Content End</Link></div>
+            <div className='nav-link'><Link className='nav-item' to='/griditemcolumnone'>Grid Column Items 1</Link></div>
+            <div className='nav-link'><Link className='nav-item' to='/griditemcolumnone'>Justify Content End</Link></div>
+            <div className='nav-link'><Link className='nav-item' to='/griditemcolumnone'>Justify Content End</Link></div>
+            <div className='nav-link'><Link className='nav-item' to='/griditemcolumnone'>Justify Content End</Link></div>
+            <div className='nav-link'><Link className='nav-item' to='/griditemcolumnone'>Justify Content End</Link></div>
+            <div className='nav-link'><Link className='nav-item' to='/griditemcolumnone'>Justify Content End</Link></div>
+            <div className='nav-link'><Link className='nav-item' to='/griditemcolumnone'>Justify Content End</Link></div>
+            <div className='nav-link'><Link className='nav-item' to='/griditemcolumnone'>Justify Content End</Link></div>
 
         </div>
     )
