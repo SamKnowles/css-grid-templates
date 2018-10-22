@@ -24,6 +24,7 @@ import AlignContentSpaceAround from './AlignContentSpaceAround';
 import AlignContentSpaceBetween from './AlignContentSpaceBetween';
 import AlignContentStart from './AlignContentStart';
 import AlignContentEnd from './AlignContentEnd';
+import GridItem from './GridItem';
 import Nav from './Nav';
 
 import '../Styles/Nav.css';
@@ -52,6 +53,7 @@ import '../Styles/AlignContentSpaceAround.css';
 import '../Styles/AlignContentSpaceBetween.css';
 import '../Styles/AlignContentStart.css';
 import '../Styles/AlignContentEnd.css';
+import '../Styles/GridItem.css';
 
 function App() {
     return (
@@ -82,6 +84,7 @@ function App() {
                 <Route path='/aligncontentspacebetween' component={AlignContentSpaceBetween}></Route>
                 <Route path='/aligncontentstart' component={AlignContentStart}></Route>
                 <Route path='/aligncontentend' component={AlignContentEnd}></Route>
+                <Route path='/griditem' component={GridItem}></Route>
 
             </Switch>
         </div>
