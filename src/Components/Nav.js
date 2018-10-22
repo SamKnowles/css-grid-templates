@@ -31,7 +31,7 @@ function Nav() {
             <div className='nav-link'><Link className='nav-item' to='/griditemcolumnone'>Grid Column Items 1</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/griditemcolumntwo'>Grid Column Items 2</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/griditemcolumnthree'>Grid Colun Items 3</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/griditemcolumnone'>Justify Content End</Link></div>
+            <div className='nav-link'><Link className='nav-item' to='/griditemrow'>Grid Row Items 1</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/griditemcolumnone'>Justify Content End</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/griditemcolumnone'>Justify Content End</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/griditemcolumnone'>Justify Content End</Link></div>
