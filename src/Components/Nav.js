@@ -36,8 +36,8 @@ function Nav() {
             <div className='nav-link'><Link className='nav-item' to='/gridarea'>Grid Area Property</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/gridareaone'>Grid Area One</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/naminggriditems'>Naming Grid Items</Link></div>
-
-        </div>
+            <div className='nav-link'><Link className='nav-item' to='/naminggriditemsOne'>Naming Grid Items One</Link></div>
+            </div>
     )
 }
 export default Nav
