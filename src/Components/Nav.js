@@ -36,7 +36,11 @@ function Nav() {
             <div className='nav-link'><Link className='nav-item' to='/gridarea'>Grid Area Property</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/gridareaone'>Grid Area One</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/naminggriditems'>Naming Grid Items</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/naminggriditemsOne'>Naming Grid Items One</Link></div>
+            <div className='nav-link'><Link className='nav-item' to='/naminggriditemsone'>Naming Grid Items One</Link></div>
+            <div className='nav-link'><Link className='nav-item' to='/naminggriditemstwo'>Naming Grid Items Two</Link></div>
+            <div className='nav-link'><Link className='nav-item' to='/naminggriditemsthree'>Naming Grid Items Three</Link></div>
+            <div className='nav-link'><Link className='nav-item' to='/gridorderofitems'>The Order of the Items</Link></div>
+            <div className='nav-link'><Link className='nav-item' to='/gridorderofitemsone'>The Order of the Items One</Link></div>
             </div>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Switch, Route} from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import GridElements from './GridElements';
 import GridColumns from './GridColumns';
 import GridLayout from './GridLayout';
@@ -33,7 +33,11 @@ import GridItemRowOne from './GridItemRowOne';
 import GridArea from './GridArea';
 import GridAreaOne from './GridAreaOne';
 import NamingGridItems from './NamingGridItems';
-import NamingGridItemsOne from './NamingGridItemsOne'
+import NamingGridItemsOne from './NamingGridItemsOne';
+import NamingGridItemsTwo from './NamingGridItemsTwo';
+import NamingGridItemsThree from './NamingGridItemsThree';
+import GridOrderOfItems from './GridOrderOfItems';
+import GridOrderOfItemsOne from './GridOrderOfItemsOne';
 import Nav from './Nav';
 
 import '../Styles/Nav.css';
@@ -68,10 +72,14 @@ import '../Styles/GridItemColumnTwo.css';
 import '../Styles/GridItemColumnThree.css';
 import '../Styles/GridItemRow.css';
 import '../Styles/GridItemRowOne.css';
-import '../Styles/GridArea.css'
-import '../Styles/GridAreaOne.css'
-import '../Styles/NamingGridItems.css'
-import '../Styles/NamingGridItemsOne.css'
+import '../Styles/GridArea.css';
+import '../Styles/GridAreaOne.css';
+import '../Styles/NamingGridItems.css';
+import '../Styles/NamingGridItemsOne.css';
+import '../Styles/NamingGridItemsTwo.css';
+import '../Styles/NamingGridItemsThree.css';
+import '../Styles/GridOrderOfItems.css';
+import '../Styles/GridOrderOfItemsOne.css'
 
 
 function App() {
@@ -104,17 +112,20 @@ function App() {
                 <Route path='/aligncontentstart' component={AlignContentStart}></Route>
                 <Route path='/aligncontentend' component={AlignContentEnd}></Route>
                 <Route path='/griditem' component={GridItem}></Route>
-                <Route path='/griditemcolumnone' component={GridItemColumnOne}/>
-                <Route path='/griditemcolumntwo' component={GridItemColumnTwo}/>
-                <Route path='/griditemcolumnthree' component={GridItemColumnThree}/>
-                <Route path='/griditemrow' component={GridItemRow}/>
-                <Route path='/griditemrowone' component={GridItemRowOne}/>
-                <Route path='/gridarea' component={GridArea}/>
-                <Route path='/gridareaone' component={GridAreaOne}/>
-                <Route path='/naminggriditems' component={NamingGridItems}/>
-                <Route path='/naminggriditemsone' component={NamingGridItemsOne}/>
+                <Route path='/griditemcolumnone' component={GridItemColumnOne} />
+                <Route path='/griditemcolumntwo' component={GridItemColumnTwo} />
+                <Route path='/griditemcolumnthree' component={GridItemColumnThree} />
+                <Route path='/griditemrow' component={GridItemRow} />
+                <Route path='/griditemrowone' component={GridItemRowOne} />
+                <Route path='/gridarea' component={GridArea} />
+                <Route path='/gridareaone' component={GridAreaOne} />
+                <Route path='/naminggriditems' component={NamingGridItems} />
+                <Route path='/naminggriditemsone' component={NamingGridItemsOne} />
+                <Route path='/naminggriditemstwo' component={NamingGridItemsTwo} />
+                <Route path='/naminggriditemsthree' component={NamingGridItemsThree} />
+                <Route path='/gridorderofitems' component={GridOrderOfItems} />
+                <Route path='/gridorderofitemsone' component={GridOrderOfItemsOne}/>
                 
-            
             </Switch>
         </div>
     )
