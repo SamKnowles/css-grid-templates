@@ -31,6 +31,7 @@ import GridItemColumnThree from './GridItemColumnThree';
 import GridItemRow from './GridItemRow';
 import GridItemRowOne from './GridItemRowOne';
 import GridArea from './GridArea';
+import GridAreaOne from './GridAreaOne';
 import Nav from './Nav';
 
 import '../Styles/Nav.css';
@@ -66,6 +67,7 @@ import '../Styles/GridItemColumnThree.css';
 import '../Styles/GridItemRow.css';
 import '../Styles/GridItemRowOne.css';
 import '../Styles/GridArea.css'
+import '../Styles/GridAreaOne.css'
 
 
 function App() {
@@ -104,8 +106,9 @@ function App() {
                 <Route path='/griditemrow' component={GridItemRow}/>
                 <Route path='/griditemrowone' component={GridItemRowOne}/>
                 <Route path='/gridarea' component={GridArea}/>
+                <Route path='/gridareaone' component={GridAreaOne}/>
                 
-                
+            
             </Switch>
         </div>
     )
