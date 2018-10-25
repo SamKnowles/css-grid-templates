@@ -1,13 +1,13 @@
-.nav-container {
+.nav-container1 {
     display: grid;
-    grid-template-columns: repeat(25, 1fr);
+    grid-template-columns: repeat(14, 1fr);
     background-color: #2196F3;
     grid-gap: 10px;    
     padding: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
-.nav-container > div {
+.nav-container1 > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
 }
@@ -18,16 +18,43 @@
     font-size: 11px;
 }
 
+.nav-container2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #2196F3;
+    grid-gap: 10px;    
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-container2 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
 .nav-item-justify {
-    color: Purple;
+    color: white;
     text-decoration: none;
     font-size: 14px;
-    background-color: pink;
+    background-color: purple;
+}
+
+.nav-container3 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #2196F3;
+    grid-gap: 10px;    
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-container3 > div {
+    background-color: rgba(6, 94, 3, 0.8);
+    text-align: center;
 }
 
 .nav-grid-item {
-    color: Purple;
     text-decoration: none;
     font-size: 14px;
-    background-color: Orange;
+    color: white;
 }
