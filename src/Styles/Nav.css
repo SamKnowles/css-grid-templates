@@ -24,3 +24,10 @@
     font-size: 14px;
     background-color: pink;
 }
+
+.nav-grid-item {
+    color: Purple;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: Orange;
+}

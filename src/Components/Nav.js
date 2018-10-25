@@ -27,12 +27,12 @@ function Nav() {
             <div className='nav-link'><Link className='nav-item' to='/aligncontentspacebetween'>Align Content Space Between</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/aligncontentstart'>Align Content Start</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/aligncontentend'>Align Content End</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/griditem'>Grid Item</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/griditemcolumnone'>Grid Column Items 1</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/griditemcolumntwo'>Grid Column Items 2</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/griditemcolumnthree'>Grid Column Items 3</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/griditemrow'>Grid Row Items 1</Link></div>
-            <div className='nav-link'><Link className='nav-item' to='/griditemrowone'>Grid Row Items 2</Link></div>
+            <div className='nav-link'><Link className='nav-grid-item' to='/griditem'>Grid Item</Link></div>
+            <div className='nav-link'><Link className='nav-grid-item' to='/griditemcolumnone'>Grid Column Items 1</Link></div>
+            <div className='nav-link'><Link className='nav-grid-item' to='/griditemcolumntwo'>Grid Column Items 2</Link></div>
+            <div className='nav-link'><Link className='nav-grid-item' to='/griditemcolumnthree'>Grid Column Items 3</Link></div>
+            <div className='nav-link'><Link className='nav-grid-item' to='/griditemrow'>Grid Row Items 1</Link></div>
+            <div className='nav-link'><Link className='nav-grid-item' to='/griditemrowone'>Grid Row Items 2</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/gridarea'>Grid Area Property</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/gridareaone'>Grid Area One</Link></div>
             <div className='nav-link'><Link className='nav-item' to='/naminggriditems'>Naming Grid Items</Link></div>

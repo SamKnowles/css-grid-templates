@@ -125,7 +125,6 @@ function App() {
                 <Route path='/naminggriditemsthree' component={NamingGridItemsThree} />
                 <Route path='/gridorderofitems' component={GridOrderOfItems} />
                 <Route path='/gridorderofitemsone' component={GridOrderOfItemsOne}/>
-                
             </Switch>
         </div>
     )
