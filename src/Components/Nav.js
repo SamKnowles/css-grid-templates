@@ -19,12 +19,14 @@ function Nav() {
                 <div className='nav-link'><Link className='nav-item' to='/gridtemplaterows'>Grid Template Rows</Link></div>
                 <div className='nav-link'><Link className='nav-item' to='/gridarea'>Grid Area Property</Link></div>
                 <div className='nav-link'><Link className='nav-item' to='/gridareaone'>Grid Area One</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/naminggriditems'>Naming Grid Items</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/naminggriditemsone'>Naming Grid Items One</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/naminggriditemstwo'>Naming Grid Items Two</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/naminggriditemsthree'>Naming Grid Items Three</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/gridorderofitems'>The Order of the Items</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/gridorderofitemsone'>The Order of the Items One</Link></div>
+            </div>
+            <div className='nav-container5'>
+                <div className='nav-link'><Link className='nav-item-items' to='/naminggriditems'>Naming Grid Items</Link></div>
+                <div className='nav-link'><Link className='nav-item-items' to='/naminggriditemsone'>Naming Grid Items One</Link></div>
+                <div className='nav-link'><Link className='nav-item-items' to='/naminggriditemstwo'>Naming Grid Items Two</Link></div>
+                <div className='nav-link'><Link className='nav-item-items' to='/naminggriditemsthree'>Naming Grid Items Three</Link></div>
+                <div className='nav-link'><Link className='nav-item-items' to='/gridorderofitems'>The Order of the Items</Link></div>
+                <div className='nav-link'><Link className='nav-item-items' to='/gridorderofitemsone'>The Order of the Items One</Link></div>
             </div>
             <div className='nav-container4'>
                 <div className='nav-link'><Link className='nav-item-align' to='/aligncontentcenter'>Align Content Center</Link></div>
