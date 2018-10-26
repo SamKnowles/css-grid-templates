@@ -17,12 +17,6 @@ function Nav() {
                 <div className='nav-link'><Link className='nav-item' to='/gridtemplatecolumns'>Grid Template Columns</Link></div>
                 <div className='nav-link'><Link className='nav-item' to='/gridtemplatecolumnsplus'>Grid Template Columns Plus</Link></div>
                 <div className='nav-link'><Link className='nav-item' to='/gridtemplaterows'>Grid Template Rows</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/aligncontentcenter'>Align Content Center</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/aligncontentspaceevenly'>Align Content Space Evenly</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/aligncontentspacearound'>Align Content Space Around</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/aligncontentspacebetween'>Align Content Space Between</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/aligncontentstart'>Align Content Start</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/aligncontentend'>Align Content End</Link></div>
                 <div className='nav-link'><Link className='nav-item' to='/gridarea'>Grid Area Property</Link></div>
                 <div className='nav-link'><Link className='nav-item' to='/gridareaone'>Grid Area One</Link></div>
                 <div className='nav-link'><Link className='nav-item' to='/naminggriditems'>Naming Grid Items</Link></div>
@@ -31,6 +25,14 @@ function Nav() {
                 <div className='nav-link'><Link className='nav-item' to='/naminggriditemsthree'>Naming Grid Items Three</Link></div>
                 <div className='nav-link'><Link className='nav-item' to='/gridorderofitems'>The Order of the Items</Link></div>
                 <div className='nav-link'><Link className='nav-item' to='/gridorderofitemsone'>The Order of the Items One</Link></div>
+            </div>
+            <div className='nav-container4'>
+                <div className='nav-link'><Link className='nav-item-align' to='/aligncontentcenter'>Align Content Center</Link></div>
+                <div className='nav-link'><Link className='nav-item-align' to='/aligncontentspaceevenly'>Align Content Space Evenly</Link></div>
+                <div className='nav-link'><Link className='nav-item-align' to='/aligncontentspacearound'>Align Content Space Around</Link></div>
+                <div className='nav-link'><Link className='nav-item-align' to='/aligncontentspacebetween'>Align Content Space Between</Link></div>
+                <div className='nav-link'><Link className='nav-item-align' to='/aligncontentstart'>Align Content Start</Link></div>
+                <div className='nav-link'><Link className='nav-item-align' to='/aligncontentend'>Align Content End</Link></div>
             </div>
             <div className='nav-container2'>
                 <div className='nav-link'><Link className='nav-item-justify' to='/justifycontentspaceevenly'>Justify Content Space Evenly</Link></div>

@@ -28,7 +28,7 @@
 }
 
 .nav-container2 > div {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(250, 2, 2, 0.8);
     text-align: center;
 }
 
@@ -36,7 +36,6 @@
     color: white;
     text-decoration: none;
     font-size: 14px;
-    background-color: purple;
 }
 
 .nav-container3 {
@@ -54,6 +53,26 @@
 }
 
 .nav-grid-item {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+.nav-container4 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #2196F3;
+    grid-gap: 10px;    
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-container4 > div {
+    background-color: rgba(255, 0, 221, 0.8);
+    text-align: center;
+}
+
+.nav-item-align{
     text-decoration: none;
     font-size: 14px;
     color: white;
