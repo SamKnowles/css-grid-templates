@@ -2,13 +2,13 @@
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     background-color: #2196F3;
-    grid-gap: 10px;    
-    padding: 10px;
-    margin-bottom: 10px;
+    grid-gap: 5px;    
+    padding: 5px;
+    margin-bottom: 5px;
 }
 
 .nav-container1 > div {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(3, 44, 68, 0.8);
     text-align: center;
 }
 
@@ -22,9 +22,9 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     background-color: #2196F3;
-    grid-gap: 10px;    
-    padding: 10px;
-    margin-bottom: 10px;
+    grid-gap: 5px;    
+    padding: 5px;
+    margin-bottom: 5px;
 }
 
 .nav-container2 > div {
@@ -42,9 +42,9 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     background-color: #2196F3;
-    grid-gap: 10px;    
-    padding: 10px;
-    margin-bottom: 10px;
+    grid-gap: 5px;    
+    padding: 5px;
+    margin-bottom: 5px;
 }
 
 .nav-container3 > div {
@@ -62,9 +62,9 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     background-color: #2196F3;
-    grid-gap: 10px;    
-    padding: 10px;
-    margin-bottom: 10px;
+    grid-gap: 5px;    
+    padding: 5px;
+    margin-bottom: 5px;
 }
 
 .nav-container4 > div {
@@ -91,9 +91,9 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     background-color: #2196F3;
-    grid-gap: 10px;    
-    padding: 10px;
-    margin-bottom: 10px;
+    grid-gap: 5px;    
+    padding: 5px;
+    margin-bottom: 5px;
 }
 
 .nav-container5 > div {
@@ -105,9 +105,9 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     background-color: #2196F3;
-    grid-gap: 10px;    
-    padding: 10px;
-    margin-bottom: 10px;
+    grid-gap: 5px;    
+    padding: 5px;
+    margin-bottom: 5px;
 }
 
 .nav-container6 > div {
