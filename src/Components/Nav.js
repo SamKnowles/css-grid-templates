@@ -13,12 +13,14 @@ function Nav() {
                 <div className='nav-link'><Link className='nav-item' to='/gridgapplus'>Grid Gap Plus</Link></div>
                 <div className='nav-link'><Link className='nav-item' to='/gridlines'>Grid Lines</Link></div>
                 <div className='nav-link'><Link className='nav-item' to='/gridlinesplus'>Grid Lines Plus</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/gridcontainer'>Grid Container</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/gridtemplatecolumns'>Grid Template Columns</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/gridtemplatecolumnsplus'>Grid Template Columns Plus</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/gridtemplaterows'>Grid Template Rows</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/gridarea'>Grid Area Property</Link></div>
-                <div className='nav-link'><Link className='nav-item' to='/gridareaone'>Grid Area One</Link></div>
+            </div>
+            <div className='nav-container6'>
+                <div className='nav-link'><Link className='nav-item-template' to='/gridcontainer'>Grid Container</Link></div>
+                <div className='nav-link'><Link className='nav-item-template' to='/gridtemplatecolumns'>Grid Template Columns</Link></div>
+                <div className='nav-link'><Link className='nav-item-template' to='/gridtemplatecolumnsplus'>Grid Template Columns Plus</Link></div>
+                <div className='nav-link'><Link className='nav-item-template' to='/gridtemplaterows'>Grid Template Rows</Link></div>
+                <div className='nav-link'><Link className='nav-item-template' to='/gridarea'>Grid Area Property</Link></div>
+                <div className='nav-link'><Link className='nav-item-template' to='/gridareaone'>Grid Area One</Link></div>
             </div>
             <div className='nav-container5'>
                 <div className='nav-link'><Link className='nav-item-items' to='/naminggriditems'>Naming Grid Items</Link></div>
